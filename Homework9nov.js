@@ -56,7 +56,7 @@ for (let i = 0; i < arr.length; i++) {
     }
     result += " ";
     for (let k = 1; k <= starad; k++) {
-        if(k<5){
+        if(starad<arr.length){
             result += "@"
         }else{
             result += " "
@@ -66,6 +66,6 @@ for (let i = 0; i < arr.length; i++) {
     starc = starc + 1
     starad= starad +1
 }
-result= result.slice(0,51)
+
 
 console.log(result);
