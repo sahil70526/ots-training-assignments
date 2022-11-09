@@ -43,5 +43,31 @@ function reverse(num) {
     }
     return reverseNum
 }
-let fg = reverse(102);
+let fg = reverse(1025);
 console.log(fg);
+
+// -------------------- class problem---------------
+
+let str = "A man is besides the road"
+let arr = str.split(" ");
+let result = ""
+let starc = 1
+for (let i = 0; i < arr.length; i++) {
+    let nstr = arr[i];
+    result += nstr;
+
+    for (let j = 1; j <= starc; j++) {
+        result += "*"
+
+
+    }
+
+
+    starc = starc + 1
+
+
+
+}
+
+console.log(result);
+
