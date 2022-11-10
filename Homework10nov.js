@@ -8,7 +8,7 @@ const users=[
 // ------------------------- hw 10 nov prob 001 --------------------------
 const secondOut= users.reduce((final,e)=>{
     if(e.gender=="female"){
-        final.push("My name is "+e.firstName+" "+e.lastName + ". I am"+e.age+" years old.")
+        final.push("My name is "+e.firstName+" "+e.lastName + ". I am "+e.age+" years old.")
     }
     return final
 },[])
