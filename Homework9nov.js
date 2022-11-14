@@ -10,7 +10,9 @@ for (let i = 1; i <= str1.length; i++) {
         result2 = result2.concat(str1.slice(j,i))
         break;
     }
-    result2 += "\n"
+    if(i<str1.length){
+        result2 += "\n"
+    }
 }
 console.log(result2);
 result2=""

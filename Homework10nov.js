@@ -23,3 +23,5 @@ const secondOut2= users.reduce((final,e)=>{
     return final
 },[])
 console.log(secondOut2);
+
+
